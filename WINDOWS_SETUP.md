@@ -3,6 +3,9 @@
 **For:** Windows Desktop Development  
 **Duration:** 10-15 minutes  
 
+> ⚠️ **IMPORTANT — the app is its OWN repo, not part of this one.**
+> `frontend/ics-sim-prep` in THIS repository is only a commit pointer (gitlink → `7f25b77`); it clones **empty** and there is no `.gitmodules` to fill it. The real Next.js app lives at **`https://github.com/Roosterx19/ics-sim-prep`** and must be cloned separately. Do NOT try to `pnpm install` inside `ICS-Simulator-Continuation/frontend/ics-sim-prep` — it has no `package.json`.
+
 ---
 
 ## Step 1: Prerequisites (5 minutes)
@@ -34,30 +37,43 @@ pnpm --version  # Should show 9.4.0
 
 ---
 
-## Step 2: Clone Repository (2 minutes)
+## Step 2: Get the App Repository (2 minutes)
 
+The application is the standalone repo **`ics-sim-prep`** (NOT this continuation repo).
+
+**Fresh machine — clone the app:**
 ```powershell
-# Open PowerShell or Command Prompt
-
 cd Desktop  # Or your preferred location
 
-git clone https://github.com/Roosterx19/ICS-Simulator-Continuation.git
+git clone https://github.com/Roosterx19/ics-sim-prep.git
 
-cd ICS-Simulator-Continuation/frontend/ics-sim-prep
+cd ics-sim-prep
+```
+
+**Already have a local copy?** Just update it instead of re-cloning:
+```powershell
+cd path\to\ics-sim-prep
+git pull --ff-only            # fast-forward only; never silently merges
 ```
 
 ---
 
 ## Step 3: Install Dependencies (3 minutes)
 
+Activate the pinned pnpm (the repo pins `pnpm@9.4.0` via `packageManager`):
+```powershell
+corepack enable
+corepack prepare pnpm@9.4.0 --activate
+```
+
+Then install:
 ```powershell
 pnpm install
 ```
 
-Wait for installation to complete. You should see:
-```
-packages in 45s
-```
+> If install reports `ERR_PNPM_OUTDATED_LOCKFILE`, the committed `pnpm-lock.yaml` is behind `package.json` (a dependency was added without committing the lockfile). Run `pnpm install --no-frozen-lockfile` to regenerate it, then commit the updated `pnpm-lock.yaml`.
+
+Wait for installation to complete (`Done in ~Ns`).
 
 ---
 
