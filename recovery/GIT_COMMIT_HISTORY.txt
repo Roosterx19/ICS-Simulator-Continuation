@@ -1,0 +1,174 @@
+7f25b77 2026-04-27 15:08:20 -0400 Roosterx19 - docs: log Capital City HAZMAT verification + future-scope flags
+d4f1ac7 2026-04-27 15:07:04 -0400 Roosterx19 - feat(scenario): expand Capital City HAZMAT to 11 injects covering JIC, traffic, schools, hospital surge, Level A entry, re-entry
+177b049 2026-04-27 15:03:49 -0400 Roosterx19 - fix(scenario): correct Central-City-FD typo in HAZMAT inject
+6222949 2026-04-27 14:50:48 -0400 Roosterx19 - docs: mark Bug 5 (Maps widget) resolved with live mini-map
+e3ea853 2026-04-27 14:49:43 -0400 Roosterx19 - fix(scene): replace empty Maps widget with live SVG mini-map (Bug 5)
+ae5671c 2026-04-27 14:36:40 -0400 Roosterx19 - docs: vercel full block confirmed not protection/queue/security; defer to support
+1787859 2026-04-27 14:11:55 -0400 Roosterx19 - docs: mark camera forward-pan as resolved per Gemini QA, log T-overlay color gap
+07fe259 2026-04-27 13:55:24 -0400 Roosterx19 - fix(db): backfill user_scenario_completions from schema_migrations
+ebdccf2 2026-04-27 13:54:13 -0400 Roosterx19 - fix(db): backfill score_for_form_submission from schema_migrations
+2eaf5df 2026-04-27 13:50:46 -0400 Roosterx19 - fix(db): backfill presence_tracking from schema_migrations
+0699bc3 2026-04-27 13:43:18 -0400 Roosterx19 - fix(db): backfill add_command_type_to_sessions from schema_migrations
+3d35b45 2026-04-27 13:13:21 -0400 Roosterx19 - docs: move Item 4 to resolved section in known-issues.md
+1a80b01 2026-04-27 13:03:59 -0400 Roosterx19 - feat(dev): instructor dashboard buttons for seed/reset demo session
+ad03ac9 2026-04-27 13:02:24 -0400 Roosterx19 - feat(dev): seed-demo-session route for end-to-end AAR demos
+ac9be70 2026-04-27 12:57:48 -0400 Roosterx19 - fix(api): /end stamps completed_at alongside status
+c027fc4 2026-04-27 09:57:04 -0400 Roosterx19 - docs: track vercel deployment failure for next-session diagnostic
+e36cb76 2026-04-27 09:47:22 -0400 Roosterx19 - docs: log Item 4 (demo seed + end-session UI) as parked work
+170dc68 2026-04-27 09:42:34 -0400 Roosterx19 - fix(aar/print): use completed_at instead of created_at for "Completed" label
+b87ad8f 2026-04-27 09:23:55 -0400 Roosterx19 - polish(aar): print page CSS for Chrome + Safari
+8b74a70 2026-04-27 09:10:19 -0400 Roosterx19 - feat(supabase): backfill aar_observations + improvement_items migrations
+ddae876 2026-04-27 09:00:43 -0400 Roosterx19 - fix(aar): print page reads real span_of_control_violations + null-guards budget
+40bf3a8 2026-04-27 08:43:45 -0400 Roosterx19 - docs: track parked visual bugs in known-issues.md for later session
+b50b28f 2026-04-27 08:36:35 -0400 Roosterx19 - fix(scene): Bug 2-5 follow-ups + push-back on Bug 1
+090c0a4 2026-04-26 14:59:59 -0400 Roosterx19 - feat(dev): add T-toggle diagnostic overlay for in-scene log verification
+e97d725 2026-04-26 14:58:03 -0400 Roosterx19 - fix(shadow): raise blob shadow Y above block-mat to prevent z-fighting hide
+acfcb5b 2026-04-26 14:51:56 -0400 Roosterx19 - fix(device-detection): require UA match alongside touchPoints to keep desktops desktop
+c039c96 2026-04-26 09:40:54 -0400 Roosterx19 - docs: refresh rally-point with current sim state
+d62b504 2026-04-26 09:38:49 -0400 Roosterx19 - docs: backfill afk-session-log for today's Part 5 + bug fix session
+0b4500a 2026-04-26 08:56:53 -0400 Roosterx19 - fix(scene): expand shadow camera bounds + add player blob shadow
+c407697 2026-04-26 08:55:59 -0400 Roosterx19 - fix(player): modulate walk timeScale to match world translation speed
+2048c48 2026-04-26 08:55:16 -0400 Roosterx19 - fix(facility): raise hospital rooftop sign Y from 72 to 105
+c785989 2026-04-26 08:54:19 -0400 Roosterx19 - diag(facility): log per-cell category → spec mapping in FacilityLogo
+3cfe1ea 2026-04-22 15:57:35 -0400 Roosterx19 - feat(facilities): add Liberty County Public Health Department at Nelson Center
+c1725a8 2026-04-22 15:56:36 -0400 Roosterx19 - fix(facilities): correct Nelson Center address from N15 to FF & 11th per ESSD
+cd1c213 2026-04-22 15:55:21 -0400 Roosterx19 - docs(geography): fix Capital City county reference
+1d22614 2026-04-22 15:28:24 -0400 Roosterx19 - feat(facility): color-code + logos + hospital rooftop signs
+a5876b7 2026-04-22 13:18:43 -0400 Roosterx19 - fix(scene): street sign backfaces + camera far/fog for max-zoom ground visibility
+b1a5d58 2026-04-22 10:27:05 -0400 Roosterx19 - fix(scene): native wheel listener + unambiguous non-billboard street signs
+8237d9b 2026-04-22 10:07:54 -0400 Roosterx19 - fix(scene): camera nav, road z-fight, street sign geometry
+93a0da6 2026-04-22 09:14:48 -0400 Roosterx19 - fix(camera): unlock OrbitControls pan — stop eating right-click + stabilize target
+68168d4 2026-04-22 08:58:03 -0400 Roosterx19 - feat(scene): render StreetSigns at sampled grid intersections
+2e67be1 2026-04-21 15:34:42 -0400 Roosterx19 - feat(data): add street-names.ts for Central City grid
+e5012bf 2026-04-21 15:06:12 -0400 Roosterx19 - feat(facilities): add Central City Animal Shelter from ESSD Appendix R
+7b50a80 2026-04-21 14:00:38 -0400 Roosterx19 - feat(landuse): seed 133 FEMA facilities into grid
+99bdb45 2026-04-21 13:54:22 -0400 Roosterx19 - feat(data): extend FEMA facility inventory with shelters + university campuses
+dcaed9c 2026-04-21 13:44:35 -0400 Roosterx19 - feat(data): extract FEMA facility inventory from ESSD
+d076117 2026-04-21 13:19:57 -0400 Roosterx19 - fix(buildings): reduce skyscraper scale to fit the follow-camera frustum
+3407cd3 2026-04-21 13:18:59 -0400 Roosterx19 - feat(camera): add orbit camera mode with C key toggle
+314bad3 2026-04-21 13:07:29 -0400 Roosterx19 - fix(scene): spawn character at M17 (downtown) instead of F18 (Staging)
+4ebc54b 2026-04-21 11:13:40 -0400 Roosterx19 - docs: log Phase C2 Kenney building ingest + render
+92797a4 2026-04-21 11:09:26 -0400 Roosterx19 - feat(scene): add CityBuildings + wire into scenario scene
+681c834 2026-04-21 11:03:24 -0400 Roosterx19 - chore(manifest): register Kenney buildings + land-use variant pools
+47e2ce1 2026-04-21 11:02:30 -0400 Roosterx19 - feat(assets): ingest Kenney city kit buildings to Supabase
+e817b63 2026-04-20 21:49:23 -0400 Roosterx19 - perf(scene): mobile-friendly Canvas defaults to fit iOS Safari memory budget
+0414269 2026-04-20 21:28:37 -0400 Roosterx19 - docs: log Task 19b walk re-render storm + slab Y-offset fixes
+7d16438 2026-04-20 21:27:13 -0400 Roosterx19 - chore(player): strip Task-19 diagnostic logs, keep transition-only logs
+6a3b5d0 2026-04-20 21:25:56 -0400 Roosterx19 - fix(blocks): reduce BLOCK_HEIGHT 3 → 0.1 so blocks render as painted mats
+bc03ee3 2026-04-20 21:24:58 -0400 Roosterx19 - fix(player): take target as primitive props for stable effect deps
+0ea8f28 2026-04-20 21:23:03 -0400 Roosterx19 - fix(scene): decouple player position from React state via shared ref
+a08d833 2026-04-20 20:50:58 -0400 Roosterx19 - docs: log Task 19 walk-stutter + Staging-visibility fixes
+bab6083 2026-04-20 20:50:17 -0400 Roosterx19 - fix(landuse): recolor golf_course to stand out from grass base
+07ec64c 2026-04-20 20:47:52 -0400 Roosterx19 - fix(scene): lift player position to parent so remount resumes from live pos
+70828a2 2026-04-20 20:46:43 -0400 Roosterx19 - fix(scene): wrap MixamoPlayer in local Suspense boundary
+b4642de 2026-04-20 20:11:56 -0400 Owner - docs: log Task 18 Phase C1 visual cleanup
+5b68406 2026-04-20 20:10:01 -0400 Owner - fix(scene): navigate-click diagnostic log + block pointer pass-through
+92e6951 2026-04-20 20:09:30 -0400 Owner - fix(camera): increase FollowCamera defaults to show surrounding city at FEMA grid scale
+8c99651 2026-04-20 20:09:15 -0400 Owner - fix(character): swap Mixamo Phong materials for visible MeshStandardMaterial by submesh name
+e983646 2026-04-20 19:47:34 -0400 Owner - docs: log Phase C1 (third-person character + click-to-move)
+9c47f5b 2026-04-20 19:45:15 -0400 Owner - feat(scene): wire third-person character + click-to-move
+5853230 2026-04-20 19:31:55 -0400 Owner - feat(scene): add FollowCamera for third-person character
+75663f7 2026-04-20 19:31:13 -0400 Owner - feat(scene): city ground accepts onNavigate click callback
+2dc51c4 2026-04-20 19:21:27 -0400 Owner - feat(character): Mixamo Ch45 player with idle/walk crossfade
+82665dc 2026-04-20 19:08:17 -0400 Owner - docs: log task 17 (Ch45 asset upload)
+3b57557 2026-04-20 19:07:52 -0400 Owner - feat(assets): add listCharacterAnimations() helper using same DB-backed pattern
+7baf207 2026-04-20 18:20:43 -0400 Owner - docs: log Phase A (3D city ground replacement)
+4446291 2026-04-20 18:19:10 -0400 Owner - feat(scene): swap paper-map ground for 3D city + remove pre-FEMA leftovers
+5ae4581 2026-04-20 18:18:06 -0400 Owner - feat(scene): add colored land-use block placeholders
+147e6ad 2026-04-20 18:17:51 -0400 Owner - feat(scene): seed Central City land-use data from FEMA Figure 10
+288f403 2026-04-20 18:17:21 -0400 Owner - feat(scene): add grid-based city streets
+3138f8b 2026-04-20 18:16:53 -0400 Owner - feat(scene): add grass base ground plane
+1eafce8 2026-04-20 17:38:16 -0400 Roosterx19 - docs: log task 12 (skybox URL normalization)
+70ae633 2026-04-20 17:31:47 -0400 Roosterx19 - fix(db): rewrite legacy Polyhaven HDRI URLs in scenario_skyboxes
+f0a5ade 2026-04-20 17:30:45 -0400 Roosterx19 - fix(skybox): normalize legacy Polyhaven HDRI URLs at read boundary
+58e015c 2026-04-20 14:10:49 -0400 Roosterx19 - docs: log task 10 (FEMA map ground plane)
+7cd1e63 2026-04-20 14:07:42 -0400 Roosterx19 - assets: add FEMA Central City map JPEGs (Figures 7, 9, 10, 18)
+c516baf 2026-04-20 14:06:11 -0400 Roosterx19 - feat(scene): re-place ICS facilities on real Central City grid per FEMA ESSD
+8fae6b5 2026-04-20 14:05:11 -0400 Roosterx19 - feat(scene): mount CentralCityGround as scene floor
+b8d5fcd 2026-04-20 14:04:42 -0400 Roosterx19 - feat(scene): add CentralCityGround component using FEMA map texture
+282ce8a 2026-04-20 14:04:27 -0400 Roosterx19 - feat(scene): add Central City grid coordinate helper per FEMA ESSD
+fab50b5 2026-04-20 13:53:13 -0400 Roosterx19 - docs: log MacBook handoff complete (task 9)
+e60d3b7 2026-04-19 22:59:54 -0400 Owner - docs: update rally point with task 8 commit list
+a154650 2026-04-19 22:59:10 -0400 Owner - chore: favicon and remaining working-tree cleanup
+49897fd 2026-04-19 22:59:10 -0400 Owner - chore: gitignore large 3D binaries, document hosting options
+21be052 2026-04-19 22:59:10 -0400 Owner - feat(skybox): client components and library helpers
+2ec9fae 2026-04-19 22:58:54 -0400 Owner - feat(hazards): new hazard visualization components
+16d80a1 2026-04-19 22:58:54 -0400 Owner - fix(scene): AREP placement, hazards integration, scenario shell wiring
+fdb2be9 2026-04-19 22:58:54 -0400 Owner - feat(auth): guest button, magic link flow, auth callback route
+eeeaf37 2026-04-19 22:54:50 -0400 Owner - docs: rally point for MacBook handoff + final AFK log
+07ed175 2026-04-19 22:05:59 -0400 Owner - docs: log Phase 2 completion in afk-session-log
+6a9d032 2026-04-19 22:04:06 -0400 Owner - fix(db): join_session compares against 'complete' (CHECK enum value), not 'completed'
+9f610d4 2026-04-19 21:50:19 -0400 Owner - feat(session): auto-join participant on scenario entry
+806d4cd 2026-04-19 21:49:21 -0400 Owner - feat(db): add join_session RPC for idempotent participant entry
+cc0eadb 2026-04-19 21:38:04 -0400 Owner - docs: add AFK session log with TASK 6 dev server restart + smoke test
+d723db7 2026-04-19 21:24:12 -0400 Owner - feat(skybox): add HDRI proxy and generator route handlers
+a8f8593 2026-04-19 21:23:46 -0400 Owner - chore(db): retroactively capture today's MCP-applied migrations
+dab2b30 2026-04-19 11:18:57 -0400 Roosterx19 - Fix 3D scene stuck loading — remove missing font reference
+f3524bd 2026-04-19 10:58:44 -0400 Roosterx19 - Retry deploy with GitHub-associated committer email
+79137cb 2026-04-19 10:56:57 -0400 Roosterx19 - Retry deploy after Vercel transient error
+9cf3cac 2026-04-19 10:54:32 -0400 Roosterx19 - Disable ESLint during Vercel build — unused-vars and escape errors shouldn't block deploy
+7c9ab56 2026-04-19 10:20:17 -0400 Roosterx19 - Redeploy after switching framework preset to Next.js
+3db3aeb 2026-04-19 10:18:13 -0400 Roosterx19 - Add vercel.json to force Next.js framework preset
+077430e 2026-04-19 10:16:46 -0400 Roosterx19 - Trigger first deploy from reconnected repo
+00eb512 2026-04-19 10:02:59 -0400 Roosterx19 - Add NextInjectPreview for instructors — see upcoming injects
+dbbd0ee 2026-04-19 10:00:48 -0400 Roosterx19 - Add AAR PDF export + inject audio alerts per severity
+fab4c39 2026-04-19 09:57:49 -0400 Roosterx19 - Add real-time presence tracking + online indicators
+ee149b6 2026-04-19 09:52:21 -0400 Roosterx19 - Add loading skeleton, keyboard shortcuts, scene polish
+ad456f9 2026-04-19 09:51:15 -0400 Roosterx19 - Add ICS-203 Organization Assignment List (10th form, auto-fills from session roles)
+bf2455c 2026-04-19 09:42:21 -0400 Roosterx19 - Add scenario library, session export, MSEL fixes, instructor tools
+ffa5c67 2026-04-19 09:40:31 -0400 Roosterx19 - Fix MSEL TypeScript any types
+2e601ab 2026-04-19 09:39:44 -0400 Roosterx19 - Add participant tracker, MSEL page, ICS-209 integration
+a42aad3 2026-04-19 09:35:59 -0400 Roosterx19 - Add ICS-209 Incident Status Summary form (9th form in IAP suite)
+de825e1 2026-04-19 09:34:19 -0400 Roosterx19 - Add form view redesign, choice inject panel, score-for-forms, IP form
+f1e335b 2026-04-19 09:30:56 -0400 Roosterx19 - Fix typed route in AAR page IP link
+d5869f4 2026-04-19 09:30:17 -0400 Roosterx19 - Add session timer, Improvement Plan page, IP form, IP tracking table
+e581d95 2026-04-19 09:15:39 -0400 Roosterx19 - Fix typed route in mobile nav
+fc396a4 2026-04-19 09:14:53 -0400 Roosterx19 - Fix mobile nav — use router.push instead of Link for dynamic routes
+d6c351f 2026-04-19 09:12:51 -0400 Roosterx19 - Fix mobile nav TypeScript error
+ba9b18d 2026-04-19 09:11:38 -0400 Roosterx19 - Add HSEEP exercise design wizard, profile page, mobile nav, metadata
+810bafe 2026-04-19 09:09:38 -0400 Roosterx19 - Add profile page with completion history, grade stats, recent sessions
+589d253 2026-04-19 09:07:55 -0400 Roosterx19 - Add leaderboard, scenario completions leader, top session scores
+850faf2 2026-04-19 09:06:53 -0400 Roosterx19 - Add scenario completion tracking, error boundary, curriculum progress
+908ab13 2026-04-19 09:05:04 -0400 Roosterx19 - 3D lighting, Perplexity pricing API, instructor pricing page, scene polish
+e88fcc0 2026-04-19 09:01:09 -0400 Roosterx19 - Add push notifications, session search, minimap, briefing TTS, ICS-211
+5956ee6 2026-04-19 08:58:51 -0400 Roosterx19 - Add ICS-211 Check-In form + tutorial scenario injects
+ce6d4cc 2026-04-19 08:51:36 -0400 Roosterx19 - Add ICS Reference Library page + hub nav link
+717a9aa 2026-04-19 08:49:20 -0400 Roosterx19 - Add onboarding modal + first-time user flow
+26c7c18 2026-04-19 08:48:01 -0400 Roosterx19 - Add operational period advance — instructor/IC can advance OP mid-session
+2daf2a2 2026-04-19 08:46:20 -0400 Roosterx19 - Add budget HUD, voice diversity, and character model diversity
+b676745 2026-04-19 08:44:19 -0400 Roosterx19 - Add inject voice announcements via browser SpeechSynthesis
+39535bb 2026-04-19 08:41:05 -0400 Roosterx19 - Add ICS-221 Demobilization Check-Out form
+20d367c 2026-04-19 02:30:10 -0400 Roosterx19 - Final scenario injects, pricing API placeholder, scene UI polish
+8f75f54 2026-04-19 02:28:02 -0400 Roosterx19 - Add curriculum track picker (ICS-300, ICS-400, HSEEP, G-191/G-2300)
+465f755 2026-04-19 02:26:10 -0400 Roosterx19 - Fix TypeScript errors in scenario picker
+67f9bd8 2026-04-19 02:25:42 -0400 Roosterx19 - Redesign scenario picker — rich cards with severity, budget, course filter
+8d23ed0 2026-04-19 02:24:50 -0400 Roosterx19 - Add instructor dashboard + link all remaining scenarios
+a3b2619 2026-04-19 02:23:37 -0400 Roosterx19 - Wire all 7 scenarios with maps, briefings, and injects
+a1e4555 2026-04-19 02:20:47 -0400 Roosterx19 - Add Liberty City scenario maps/briefing and EOC scenario injects
+dfd91db 2026-04-19 01:58:00 -0400 Roosterx19 - Add EOC/Phoenix scenario — Hurricane Gordon State EOC Activation
+402ba98 2026-04-19 01:54:04 -0400 Roosterx19 - Add Complex IM scenario (ICS-400 capstone: flood + dam break + HazMat + tribal UC)
+c661afa 2026-04-19 01:42:22 -0400 Roosterx19 - Rebuild forms index — IAP suite grid with completion status + filed forms list
+57f3af2 2026-04-19 01:41:26 -0400 Roosterx19 - Hub: add quick stats bar and New Session / Browse Roles shortcuts
+9bd79d2 2026-04-19 01:40:25 -0400 Roosterx19 - Add Single IC scenario (Central City — Type 4 flood, Swatera Creek)
+991e01a 2026-04-19 01:37:48 -0400 Roosterx19 - Add zone interaction — click any base map zone to walk there and get context
+3df7642 2026-04-19 01:36:15 -0400 Roosterx19 - Add Sims-style 3D incident base map with 12 functional zones
+674bd59 2026-04-18 19:36:55 -0400 Roosterx19 - ICS-206 medical plan pre-population for Central City Flood
+8a85a8c 2026-04-18 19:34:58 -0400 Roosterx19 - Fix TypeScript null vs undefined in sessions page
+f3e8d47 2026-04-18 19:33:52 -0400 Roosterx19 - Rebuild sessions list page — active/past split, direct scene/AAR links
+c1c1771 2026-04-18 19:33:01 -0400 Roosterx19 - Pre-populate ICS-205 comms plan and ICS-208 safety message for Central City Flood
+6794f0f 2026-04-18 19:29:54 -0400 Roosterx19 - ICS-204 pre-population for Central City Flood + form prop extension
+cebd4ca 2026-04-18 19:27:55 -0400 Roosterx19 - Redesign login, signup, and landing pages
+0707485 2026-04-18 19:25:40 -0400 Roosterx19 - Expand permission allowlist — Base44 reads + local tsc binary
+c7e3729 2026-04-18 19:20:02 -0400 Roosterx19 - ICS-201 pre-population for Central City Flood
+5d3df36 2026-04-18 19:18:42 -0400 Roosterx19 - ICS-202 pre-population with Central City Flood objectives, weather, safety
+f0f07ac 2026-04-18 19:16:35 -0400 Roosterx19 - Add scenario progress tracker with inject timeline and form deep links
+9429d91 2026-04-18 17:42:39 -0400 Roosterx19 - Add unified command org chart, HSEEP AAR overhaul, command_type on sessions
+8f761fb 2026-04-18 17:10:36 -0400 Roosterx19 - Add HSEEP observation form and AAR observations table
+8788167 2026-04-18 17:09:02 -0400 Roosterx19 - Add in-scene map viewer with all 12 Central City flood maps
+b10aca8 2026-04-18 17:02:15 -0400 Roosterx19 - Add .claude/settings.json with permission allowlist to reduce prompts
+3ab3f6f 2026-04-18 16:55:10 -0400 Roosterx19 - Add scenario briefing modal and shell — HSEEP pre-brief gate
+309304c 2026-04-18 16:52:35 -0400 Roosterx19 - Add inject engine, staging kiosk, and Central City Flood scenario
+21c62d4 2026-04-18 16:30:23 -0400 Roosterx19 - Add NBA role card browser, command type picker, docs route, and resource pricing
+29054e5 2026-04-18 11:37:08 -0400 Parrish Eason - feat: map Mixamo characters to ICS roles with section color tint
+890fafb 2026-04-18 11:30:00 -0400 Parrish Eason - feat: 3D scenario scene + Mixamo pipeline + full sim loop
+fb3af15 2026-04-17 18:20:23 -0400 Roosterx19 - Initial commit — ICS Training Simulator MVP handoff
